@@ -15,7 +15,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     license='MIT',
-    install_requires=['numpy', 'opencv-python>=3', 'lxml', 'xmljson'],
+    install_requires=['lxml', 'xmljson'],
     packages=['imantics'],
     python_requires='>=2.7',
     zip_safe=False,
